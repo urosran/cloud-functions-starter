@@ -1,4 +1,4 @@
-const user_functions = require('./js_functions/user_functions');
+const user_functions = require('./jsFunctions/userFunctions');
 
 // Export Your First Cloud Functions
 
