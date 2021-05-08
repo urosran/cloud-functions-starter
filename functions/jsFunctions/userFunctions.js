@@ -11,5 +11,6 @@ const {
 exports.templateFunction = functions.https.onRequest((request, response) => {
     cors(request, response, async () => {
         //Do something
+        response.sendStatus(200)
     })
 })
