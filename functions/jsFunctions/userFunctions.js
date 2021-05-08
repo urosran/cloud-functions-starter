@@ -8,7 +8,7 @@ const {
     db, auth
 } = require('../admin');
 
-exports.createAccountantUser = functions.https.onRequest((request, response) => {
+exports.templateFunction = functions.https.onRequest((request, response) => {
     cors(request, response, async () => {
         //Do something
     })
